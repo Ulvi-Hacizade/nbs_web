@@ -1,0 +1,60 @@
+.App_table {
+    th {
+        font-weight: bold;
+        // white-space: nowrap !important;
+    }
+    th, td {
+        color:  white;
+        text-align: center;
+        // white-space: nowrap !important;
+        height: 60px;
+
+        @include min-width(medium) {
+            height: auto;       
+        }
+    }
+
+    ul .pagination {
+        display: flex;
+        justify-content: right !important;
+   }
+}
+
+.dataTables_wrapper {
+    .pagination {
+        display: flex;
+        margin-top: 10px;
+        @include min-width(medium) {
+            margin-top: 20px;
+            justify-content: right !important;
+        }
+
+        li {
+            &.active {
+                background-color: transparent !important;
+                a {
+                    background-color: rgb(7,34,45);
+                }
+            }
+            a {
+                color: white;
+                margin-right: 5px;
+                background-color: rgb(6,38,49);                
+            }
+        }
+    }
+
+    .dataTables_info { 
+        color: wheat;
+        font-weight: bolder;
+        font-size: 15px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        padding: 10px;
+
+        @include min-width(medium) {
+            font-size: 17px;
+        }
+    }
+}
+

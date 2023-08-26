@@ -1,0 +1,424 @@
+
+
+  <div class="App_search">
+    <header class="App_header">
+      <nav class="App_header__top-nav">
+          <div class="container">
+              <a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a>
+            <div class="App_header__logo logo">
+              <img src="/static/img/logo.jpg" alt="logo">
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="App_title__main">
+            <h1>Əməkdaşlar<span>Əməkdaş əlavə et </span></h1>
+          </div>
+
+
+
+
+          <div class="">
+              <a class="waves-effect waves-light btn" style="margin-bottom: 5px;"><i class="material-icons left">document_scanner</i>Skan et</a>
+              <a class="waves-effect waves-light btn modal-trigger" style="margin-bottom: 5px;" href="#modal1">
+                <i class="material-icons left">add_circle</i>
+                Ailə üzvü əlavə et
+              </a>
+            </div>
+          <div class="row App_form-back">
+            <div class="row">
+                <form class="col s12">
+
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="App_elements__back-cover" style="width: 100%;">
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <p>
+                                  <label>
+                                    <input type="checkbox" class="filled-in" />
+                                    <span>Maşını idarə edən şəxs</span>
+                                  </label>
+                                </p>
+
+                                <p>
+                                  <label>
+                                    <input type="checkbox"  class="filled-in" name="isAttended" />
+                                    <span>Əməkdaş ilə birlikdə</span>
+                                  </label>
+                                </p>
+                                
+                              </div>
+            
+                              <div class="col s12 m6">
+                                  <div class="input-field col s6">
+                                    <input id="last_name" type="number" class="validate">
+                                    <label for="last_name">Azyaşlı sayı</label>
+                                  </div>
+                              </div>
+                            </div>
+                          </div> 
+                    </div>
+                  </div>
+                    <div class="row">
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Adı</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Soyadı</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="father_name" type="text" class="validate">
+                        <label for="father_name">Ata adı</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">pin</i>
+                        <input id="passport_number" type="text" class="validate">
+                        <label for="passport_number">Passport nömrəsi</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">place</i>
+                        <input id="birth_address" type="text" class="validate">
+                        <label for="birth_address">Doğum yeri</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">date_range</i>
+                        <input id="birth_date" type="text" class="datepicker">
+                        <label for="birth_date">Doğum tarixi</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">where_to_vote</i>
+                        <input id="registration_address" type="text" class="validate">
+                        <label for="registration_address">Qeydiyyat yeri</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">
+                            assured_workload
+                        </i>
+                        <input id="given_organisation" type="text" class="validate">
+                        <label for="given_organisation">Sənədi verən orqan</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">directions_car</i>
+                        <input id="car_number" type="text" class="validate">
+                        <label for="car_number">Maşın nömrəsi</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">checklist</i>
+                        <input id="marital_status" type="text" class="validate">
+                        <label for="marital_status">Ailə vəziyyəti</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">bloodtype</i>
+                        <input id="blood_type" type="text" class="validate">
+                        <label for="blood_type">Qan qrupu</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">height</i>
+                        <input id="height" type="text" class="validate">
+                        <label for="height">Boy</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">visibility</i>
+                        <input id="eye_color" type="text" class="validate">
+                        <label for="eye_color">Göz rəngi</label>
+                      </div>
+
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">event</i>
+                        <input id="given_date" type="text" class="datepicker validate">
+                        <label for="given_date">Sənədin verilmə tarixi</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">event_busy</i>
+                        <input id="expire_date" type="text" class="datepicker validate">
+                        <label for="expire_date">Sənədin istifadə müddətinin bitmə tarixi</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">pin</i>
+                        <input id="pin" type="text" class="validate">
+                        <label for="pin">Fin</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">event_available</i>
+                        <input id="activation_date" type="text" class="datepicker validate">
+                        <label for="activation_date">Sənədin aktiv olma tarixi</label>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">free_cancellation</i>
+                        <input id="activation_date" type="text" class="datepicker validate">
+                        <label for="activation_date">Sənədin deaktiv olma tarixi</label>
+                      </div>
+
+                      <div class="input-field col s12 m6 App_form-radio_wrapper">
+                            <i class="material-icons prefix">checklist_rtl</i>
+                            <div class="App_form-radio_wrapper-inside">
+
+                            
+                          <span style="display: inline-block;">
+                            <label style="display: inline-block;">
+                              <input class="with-gap" name="group3" type="radio" checked />
+                              <span>Kişi</span>
+                            </label>
+                          </span>
+
+                          <span style="display: inline-block;">
+                            <label>
+                              <input class="with-gap" name="group3" type="radio" checked />
+                              <span>Qadın</span>
+                            </label>
+                          </span>
+                        </div>
+                      </div>
+
+                      <div class="input-field col s12 m6">
+                        <i class="material-icons prefix">do_disturb</i>
+                        <input id="deactivation_reason" type="text" class="validate">
+                        <label for="deactivation_reason">Sənədin deaktiv olma səbəbi</label>
+                      </div>
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="note" class="materialize-textarea"></textarea>
+                            <label for="note">Qeyd</label>
+                        </div>  
+                        
+                        
+                        <!-- <div class="input-field col s12">
+                          <div>Cinsi</div>
+                          <p>
+                            <i class="material-icons prefix">mode_edit</i>
+                            <label>
+                              
+                              <span>Kişi</span>
+                            </label>
+                          </p>
+                      </div> -->
+
+                    </div>
+                </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+   <!-- Modal Structure -->
+   <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="App_title__main">
+        <h1>Aİlə üzvü<span>əlavə et </span></h1>
+      </div>
+      <a class="waves-effect waves-light btn" style="margin-bottom: 5px;"><i class="material-icons left">document_scanner</i>Skan et</a>
+      <div class="row App_form-back">
+        <div class="row">
+        <form class="col s12">
+          <div class="App_elements__back-cover" style="width: 100%;">
+            <div class="row">
+                <div class="col s12 m6">
+                    <p>
+                      <label>
+                        <input type="checkbox" class="filled-in" />
+                        <span>Maşını idarə edən şəxs</span>
+                      </label>
+                    </p>
+                    
+                  </div>
+
+                  <div class="col s12 m6">
+                    <div class="input-field col">
+                      <select>
+                        <option value="" disabled selected>Qohumluq dərəcəsi</option>
+                        <option value="1">Bacı</option>
+                        <option value="2">Qardaş</option>
+                        <option value="3">Əmioğlu</option>
+                      </select>
+                      <label>Qohumluq dərəcəsini seçin</label>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+                <div class="row">
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">Adı</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Soyadı</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="father_name" type="text" class="validate">
+                    <label for="father_name">Ata adı</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">pin</i>
+                    <input id="passport_number" type="text" class="validate">
+                    <label for="passport_number">Passport nömrəsi</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">place</i>
+                    <input id="birth_address" type="text" class="validate">
+                    <label for="birth_address">Doğum yeri</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">date_range</i>
+                    <input id="birth_date" type="text" class="datepicker">
+                    <label for="birth_date">Doğum tarixi</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">where_to_vote</i>
+                    <input id="registration_address" type="text" class="validate">
+                    <label for="registration_address">Qeydiyyat yeri</label>
+                  </div>
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">
+                        assured_workload
+                    </i>
+                    <input id="given_organisation" type="text" class="validate">
+                    <label for="given_organisation">Sənədi verən orqan</label>
+                  </div>
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">directions_car</i>
+                    <input id="car_number" type="text" class="validate">
+                    <label for="car_number">Maşın nömrəsi</label>
+                  </div>
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">checklist</i>
+                    <input id="marital_status" type="text" class="validate">
+                    <label for="marital_status">Ailə vəziyyəti</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">bloodtype</i>
+                    <input id="blood_type" type="text" class="validate">
+                    <label for="blood_type">Qan qrupu</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">height</i>
+                    <input id="height" type="text" class="validate">
+                    <label for="height">Boy</label>
+                  </div>
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">visibility</i>
+                    <input id="eye_color" type="text" class="validate">
+                    <label for="eye_color">Göz rəngi</label>
+                  </div>
+
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">event</i>
+                    <input id="given_date" type="text" class="datepicker validate">
+                    <label for="given_date">Sənədin verilmə tarixi</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">event_busy</i>
+                    <input id="expire_date" type="text" class="datepicker validate">
+                    <label for="expire_date">Sənədin istifadə müddətinin bitmə tarixi</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">pin</i>
+                    <input id="pin" type="text" class="validate">
+                    <label for="pin">Fin</label>
+                  </div>
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">event_available</i>
+                    <input id="activation_date" type="text" class="datepicker validate">
+                    <label for="activation_date">Sənədin aktiv olma tarixi</label>
+                  </div>
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">free_cancellation</i>
+                    <input id="activation_date" type="text" class="datepicker validate">
+                    <label for="activation_date">Sənədin deaktiv olma tarixi</label>
+                  </div>
+
+                  <div class="input-field col s12 m6 App_form-radio_wrapper">
+                        <i class="material-icons prefix">checklist_rtl</i>
+                        <div class="App_form-radio_wrapper-inside">
+
+                        
+                      <span style="display: inline-block;">
+                        <label style="display: inline-block;">
+                          <input class="with-gap" name="group3" type="radio" checked />
+                          <span>Kişi</span>
+                        </label>
+                      </span>
+
+                      <span style="display: inline-block;">
+                        <label>
+                          <input class="with-gap" name="group3" type="radio" checked />
+                          <span>Qadın</span>
+                        </label>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">do_disturb</i>
+                    <input id="deactivation_reason" type="text" class="validate">
+                    <label for="deactivation_reason">Sənədin deaktiv olma səbəbi</label>
+                  </div>
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <textarea id="note_member" class="materialize-textarea"></textarea>
+                        <label for="note_member">Qeyd</label>
+                    </div>  
+                    
+                    
+                    <!-- <div class="input-field col s12">
+                      <div>Cinsi</div>
+                      <p>
+                        <i class="material-icons prefix">mode_edit</i>
+                        <label>
+                          
+                          <span>Kişi</span>
+                        </label>
+                      </p>
+                  </div> -->
+
+                </div>
+            </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#!"  class="waves-effect waves-light btn modal-close">
+          Agree
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<script>
+    $(document).ready(function () {
+      $('#mainTable').DataTable({
+          responsive: true
+      });
+      $('select').formSelect();
+    });
+  </script>

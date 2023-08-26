@@ -1,0 +1,23 @@
+.App_header {
+    padding-left: 0;
+    
+    @include min-width(large) {
+        padding-left: 300px;
+    }
+
+    .App_header__top-nav {
+        background-color: var(--base-color);
+        position: relative;
+    }
+
+    nav .sidenav-trigger {
+        margin-left: 0;
+    }
+
+    &__logo {
+        position: absolute;
+        right: 18px;
+        top: 50%;
+        transform: translateY(-35%);
+    }
+}

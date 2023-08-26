@@ -1,0 +1,422 @@
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.exe
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.deps.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.Manifest.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.xml
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\scopedcss\bundle\BilgehNBS.styles.css
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.input.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.output.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorCoreGenerate.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest_add.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees_add.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Family.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CopyComplete
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.exe
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.deps.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.Manifest.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.xml
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\scopedcss\bundle\BilgehNBS.styles.css
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.input.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.output.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorCoreGenerate.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Family.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CopyComplete
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.genruntimeconfig.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.exe
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.deps.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.xml
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\scopedcss\bundle\BilgehNBS.styles.css
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.input.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.output.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest_add.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees_add.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Family.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CopyComplete
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.exe
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.deps.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.Manifest.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.xml
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\scopedcss\bundle\BilgehNBS.styles.css
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.input.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.output.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorCoreGenerate.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Family.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CopyComplete
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.genruntimeconfig.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.xml
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\scopedcss\bundle\BilgehNBS.styles.css
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.input.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.output.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest_add.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\Guest.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamilyReception\EmployeesReception.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamilyReception\EmployeesReception_add.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamilyReception\FamilyReception.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees_add.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Family.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Worker\Worker.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Worker\WorkerGroup.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Worker\Worker_add.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.exe
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.deps.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CopyComplete
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.exe
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.deps.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.Manifest.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\staticwebassets\BilgehNBS.StaticWebAssets.xml
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\scopedcss\bundle\BilgehNBS.styles.css
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.input.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.TagHelpers.output.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorCoreGenerate.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\EmployeeGuest_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeeGuest\Guest.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamilyReception\EmployeesReception.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamilyReception\EmployeesReception_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamilyReception\FamilyReception.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Employees_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\EmployeesFamily\Family.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Home\index.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Worker\Worker.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Worker\WorkerGroup.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\Worker\Worker_add.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.Views.pdb
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.csproj.CopyComplete
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.pdb
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBS\obj\Debug\netcoreapp3.1\BilgehNBS.genruntimeconfig.cache

@@ -1,0 +1,245 @@
+
+  <div class="App_search">
+    <header class="App_header">
+      <nav class="App_header__top-nav">
+          <div class="container">
+              <a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a>
+            <div class="App_header__logo logo">
+              <img src="/static/img/logo.jpg" alt="logo">
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+
+          <div class="App_title__main">
+            <h1>Əməkdaşlar<span>Hal-hazırda Sanatorİyada olan əməkdaşlar</span></h1>
+          </div>
+
+
+          <div class="row App_form-back">
+            <div class="row">
+              <div class="col">
+                <a class="waves-effect waves-light btn"><i class="material-icons left">add_circle</i>Əlavə et</a>
+              </div>
+            </div>
+            <table class ="responsive-table highlight App_table" id="mainTable">
+              <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Şəkil</th>
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>Ata adı</th>
+                    <th>Əməkdaşla birlikdə</th>
+                    <th>Ailə üzvləri</th>
+                    <th>Qeyd</th>
+                    <th>Post</th>
+                    <th>Giriş tarixi</th>
+                    <th>Çıxış tarixi</th>
+                    <th>Müvəqqəti çıxışlar</th>
+                    <th>Ətraflı</th>
+                    <th>Müvəqqəti çıxış</th>
+                    <th>Çıxış</th>
+                </tr>
+              </thead>
+      
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Şəkil</td>
+                  <td>Samir</td>
+                  <td>Ağazadə</td>
+                  <td>İmran</td>
+                  <td>Bəli</td>
+                  <td>
+                    <a class="waves-effect waves-light btn App_btn__withIcon"><i class="material-icons left">group</i></a>
+                  </td>
+                  <td>
+                    <a class="waves-effect waves-light btn App_btn__withIcon"><i class="material-icons left">edit_note</i></a>
+                  </td>
+                  <td>
+                    1-ci post
+                  </td>
+
+                  <td>
+                    tarix
+                  </td>
+                  <td>
+                    tarix
+                  </td>
+
+                  <td>
+                    tarixlər
+                  </td>
+                  
+                  <td>
+                    <a class="waves-effect waves-light btn App_btn__withIcon"><i class="material-icons left">info</i></a>
+                  </td>
+                  <td>
+                    <a class="waves-effect waves-light btn red accent-4 App_btn__withIcon"><i class="material-icons left">logout</i></a>
+                  </td>
+                  <td>
+                    <a class="waves-effect waves-light btn orange darken-4 App_btn__withIcon"><i class="material-icons left">logout</i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Şəkil</td>
+                  <td>Ülvü</td>
+                  <td>Hacızadə</td>
+                  <td>Zöhrab</td>
+                  <td>Xeyr</td>
+                  <td>
+                    <a class="waves-effect waves-light btn App_btn__withIcon"><i class="material-icons left">group</i></a>
+                  </td>
+                  <td>
+                    <a class="waves-effect waves-light btn App_btn__withIcon"><i class="material-icons left">edit_note</i></a>
+                  </td>
+                  <td>
+                    1-ci post
+                  </td>
+
+                  <td>
+                    tarix
+                  </td>
+                  <td>
+                    tarix
+                  </td>
+
+                  <td>
+                    tarixlər
+                  </td>
+
+                  <td>
+                    <a class="waves-effect waves-light btn App_btn__withIcon"><i class="material-icons left">info</i></a>
+                  </td>
+
+                  <td>
+                    <a class="waves-effect waves-light btn  light-blue darken-4 App_btn__withIcon"><i class="material-icons left">login</i></a>
+                  </td>
+                  <td>
+                    <a class="waves-effect waves-light btn  orange darken-4 App_btn__withIcon"><i class="material-icons left">logout</i></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Ailə üzvləri</h4>
+        <table class ="responsive-table highlight" id="mainTable">
+          <thead>
+            <tr>
+                <th>#</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>Ata adı</th>
+                <th>Birdəfəlik çıxış</th>
+                <th>Müvəqqəti çıxış</th>
+                <th>Müvəqqəti çıxışlarına bax</th>
+                <th>Ətraflı</th>
+                <th>Qeyd</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Samir</td>
+              <td>Ağazadə</td>
+              <td>İmran</td>
+              <td>
+                <a class="waves-effect waves-light btn red"><i class="material-icons left">logout</i></a>
+              </td>
+              <td>
+                <a class="waves-effect waves-light btn orange "><i class="material-icons left">logout</i></a>
+              </td>
+              <td>
+                <select>
+                  <option value="" disabled selected>Müvəqqəti çıxışlar</option>
+                  <option value="1">20/12/2023 14:58</option>
+                  <option value="2">20/12/2023 16:58</option>
+                  <option value="3">20/12/2023 18:58</option>
+                </select>
+                <label>Müvəqqəti çıxışlar</label>
+              </td>
+              <td>
+                <a class="waves-effect waves-light btn"><i class="material-icons left">logout</i></a>
+              </td>
+              <td>
+                <a class="waves-effect waves-light btn teal"><i class="material-icons left">edit_note</i></a>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Ülvü</td>
+              <td>Hacızadə</td>
+              <td>Zöhrab</td>
+              <td>
+                <a class="waves-effect waves-light btn red"><i class="material-icons left">logout</i></a>
+              </td>
+              <td>
+                <a class="waves-effect waves-light btn green"><i class="material-icons left">login</i></a>
+              </td>
+              <td>
+                <select>
+                  <option value="" disabled selected>Müvəqqəti çıxışlar</option>
+                  <option value="1" disabled style="white-space: nowrap !important">20/12/2023 14:58 - 20/12/2023 15:12 </option>
+                  <option value="2" disabled>20/12/2023 16:58 - 20/12/2023 17:45</option>
+                  <option value="3" disabled>20/12/2023 18:58 - Giriş etməyib</option>
+                </select>
+                <label>Müvəqqəti çıxışlar</label>
+              </td>
+              <td>
+                <a class="waves-effect waves-light btn teal darken-4 "><i class="material-icons left">logout</i>Bax</a>
+              </td>
+              <td>
+                <a class="waves-effect waves-light btn teal darken-4 "><i class="material-icons left">edit_note</i>Qeyd</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Bağla</a>
+      </div>
+    </div>
+<script>
+    $(document).ready(function () {
+      const localization = {
+        info: "Hal-hazırda ümümi _TOTAL_ məlumatdan _START_ - _END_ aralığında göstərilir",
+        "paginate": {
+          "first":      "İlk",
+          "last":       "Son",
+          "next":       "Sonrakı",
+          "previous":   "Əvvəlki"
+    },
+      }
+
+      $('#mainTable').DataTable({
+          responsive: true,
+          language : localization,
+          buttons: {
+            dom :{
+              button: {
+                tag: "button",
+                className: "waves-effect waves-light btn mrm"
+              }
+            },
+            buttons: [ 'copy', 'csv', 'excel', 'pdf', 'print']
+           
+          }
+      });
+      $('select').formSelect();
+    });
+  </script>

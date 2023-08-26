@@ -1,0 +1,437 @@
+﻿@model PWTModel;
+
+<div class="App_search">
+    <header class="App_header">
+        <nav class="App_header__top-nav">
+            <div class="container">
+                <a href="#" data-target="nav-main" class="top-nav sidenav-trigger full" style="display: block;"><i class="material-icons">menu</i></a>
+                <div class="App_header__logo logo">
+                    <img src="/static/img/logo.jpg" alt="logo">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="App_title__main">
+                    <h1>Qonaqlar<span>Qonaq əlavə et </span></h1>
+                </div>
+
+
+                <div class="row" style="margin-bottom: 10px;">
+                    <a class="waves-effect waves-light btn" id="addManyMembers"><i class="material-icons left">group_add</i>Daxil et</a>
+                </div>
+                <div class="row App_form-back">
+                    <table class="responsive-table highlight App_table" id="collectedDataTable">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Şəkil</th>
+                                <th>Adı</th>
+                                <th>Soyadı</th>
+                                <th>Ata adı</th>
+                                <th>İşçidir</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            Məlumat yoxdur!
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="">
+                    <a class="waves-effect waves-light btn" id="mrzreader" style="margin-bottom: 5px;"><i class="material-icons left">document_scanner</i>Skan et</a>
+                    <a href="#" data-target="slide-out" class="waves-effect waves-light btn sidenav-trigger btn" style="margin-bottom: 5px;" href="#modal1">
+                        <i class="material-icons left">search</i>
+                        Axtarış
+                    </a>
+
+                </div>
+                <div class="row App_form-back">
+                    <form asp-action="Add" id="addForm" class="App_form">
+                        <div class="row">
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="App_elements__back-cover" style="width: 100%;">
+                                        <div class="row">
+                                            <div class="col s12 m6">
+                                                <p>
+                                                    <label>
+                                                        <input type="checkbox" id="isDriver" asp-for="Crossing[0].IsDriver" class="filled-in" />
+                                                        <span>Maşını idarə edən şəxs</span>
+                                                    </label>
+                                                </p>
+
+                                                <p class="withEmployee">
+                                                    <label>
+                                                        <input type="checkbox" id="withEmployee" asp-for="Employee.IsAttended" class="filled-in" name="isAttended" />
+                                                        <span>İşçi ilə birlikdə</span>
+                                                    </label>
+                                                </p>
+
+                                                <p>
+                                                    <label>
+                                                        <input type="checkbox" id="EventParticipants" asp-for="Employee.IsAttended" class="filled-in" name="EventParticipants" />
+                                                        <span>Tədbir iştirakçısıdır</span>
+                                                    </label>
+                                                </p>
+                                            </div>
+
+                                            <div class="col s12 m6" style="margin-top: 0px">
+                                                <div class="input-field">
+                                                    <i class="material-icons prefix">directions_car</i>
+
+                                                    <input id="car_number" asp-for="Crossing[0].CarNumber"
+                                                           type="text" class="validate">
+                                                    <label for="car_number" class="car_number-label">Maşın nömrəsi</label>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="col s12 m6">
+                                                <div class="input-field" id="small_aged-field">
+                                                    <input id="small_aged" type="number" asp-for="Employee.ChildCount" class="validate">
+                                                    <label for="small_aged">Azyaşlı sayı</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col s12 m6">
+                                                <div class="input-field">
+                                                    <i class="material-icons prefix">mode_edit</i>
+                                                    <textarea id="note" class="materialize-textarea" asp-for="Employee.IdCardInformation.Name"></textarea>
+                                                    <label for="note">Qeyd</label>
+                                                </div>
+                                            </div>
+
+
+
+
+
+                                            @*<div class="input-field col s12 m6" style="margin-top: 0px">
+                                                    <i class="material-icons prefix">directions_car</i>
+
+                                                    <input id="car_number" asp-for="Crossing[0].CarNumber"
+                                                           type="text" class="validate">
+                                                    <label for="car_number">Maşın nömrəsi</label>
+
+                                                </div>*@
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 m6">
+                                    <p style="margin-bottom: 10px; color: white;">Şəkil</p>
+                                    <img class="materialboxed" width="200" id="memberPhoto" src="/static/img/demo_user.webp">
+                                </div>
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="first_name" asp-for="Employee.IdCardInformation.Name" type="text" class="validate">
+                                    <label for="first_name">Adı</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="last_name" asp-for="Employee.IdCardInformation.Surname" type="text" class="validate">
+                                    <label for="last_name">Soyadı</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="father_name" asp-for="Employee.IdCardInformation.FatherName" type="text" class="validate">
+                                    <label for="father_name">Ata adı</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">pin</i>
+                                    <input id="passport_number" asp-for="Employee.IdCardInformation.PassportNumber" type="text" class="validate">
+                                    <label for="passport_number">Passport nömrəsi</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">place</i>
+                                    <input id="birth_address" asp-for="Employee.IdCardInformation.BirthAddress" type="text" class="validate">
+                                    <label for="birth_address">Doğum yeri</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">date_range</i>
+                                    <input id="birth_date" asp-for="Employee.IdCardInformation.BirthDate" type="text" class="datepicker">
+                                    <label for="birth_date">Doğum tarixi</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">where_to_vote</i>
+                                    <input id="registration_address" asp-for="Employee.IdCardInformation.RegistrationAddress" type="text" class="validate">
+                                    <label for="registration_address">Qeydiyyat yeri</label>
+                                </div>
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">
+                                        assured_workload
+                                    </i>
+                                    <input id="given_organisation" asp-for="Employee.IdCardInformation.GivenOrganizatoin" type="text" class="validate">
+                                    <label for="given_organisation">Sənədi verən orqan</label>
+                                </div>
+
+
+
+
+
+
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">checklist</i>
+                                    <input id="marital_status" asp-for="Employee.IdCardInformation.MaritalStatus" type="text" class="validate">
+                                    <label for="marital_status">Ailə vəziyyəti</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">bloodtype</i>
+                                    <input id="blood_type" asp-for="Employee.IdCardInformation.BloodType" type="text" class="validate">
+                                    <label for="blood_type">Qan qrupu</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">height</i>
+                                    <input id="height" asp-for="Employee.IdCardInformation.Height" type="text" class="validate">
+                                    <label for="height">Boy</label>
+                                </div>
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">visibility</i>
+                                    <input id="eye_color" asp-for="Employee.IdCardInformation.EyeColor" type="text" class="validate">
+                                    <label for="eye_color">Göz rəngi</label>
+                                </div>
+
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">event</i>
+                                    <input id="given_date" asp-for="Employee.IdCardInformation.GivenDate" type="text" class="datepicker validate">
+                                    <label for="given_date">Sənədin verilmə tarixi</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">event_busy</i>
+                                    <input id="expire_date" asp-for="Employee.IdCardInformation.ExpireDate" type="text" class="datepicker validate">
+                                    <label for="expire_date">Sənədin istifadə müddətinin bitmə tarixi</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">pin</i>
+                                    <input id="pin" asp-for="Employee.IdCardInformation.Pin" type="text" class="validate">
+                                    <label for="pin">Fin</label>
+                                </div>
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">event_available</i>
+                                    <input id="activation_date" asp-for="Employee.IdCardInformation.ActivationDate" type="text" class="datepicker validate">
+                                    <label for="activation_date">Sənədin aktiv olma tarixi</label>
+                                </div>
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">free_cancellation</i>
+                                    <input id="deactivation_reason" type="text" class="validate">
+                                    <label for="deactivation_reason">Sənədin deaktiv olma sebebi</label>
+                                </div>
+
+                                <div class="input-field col s12 m6">
+                                    <i class="material-icons prefix">date_range</i>
+                                    <div id="mypicker1" class="myPicker"></div>
+                                    <input id="entrance_date" type="text">
+                                    <label for="entrance_date">Giriş tarixi</label>
+                                </div>
+
+                                <div class="input-field col s12 m6 App_form-radio_wrapper" style="margin-bottom: 35px !important;">
+                                    <i class="material-icons prefix">checklist_rtl</i>
+                                    <div class="App_form-radio_wrapper-inside">
+
+
+                                        <span style="display: inline-block; padding-left: 0 !important;">
+                                            <label style="display: inline-block;">
+                                                <input class="with-gap" id="male" asp-for="Employee.IdCardInformation.Gender" value="1" type="radio" />
+                                                <span>Kişi</span>
+                                            </label>
+                                        </span>
+
+                                        <span style="display: inline-block;">
+                                            <label>
+                                                <input class="with-gap" id="female" asp-for="Employee.IdCardInformation.Gender" value="0" type="radio" />
+                                                <span>Qadın</span>
+                                            </label>
+                                        </span>
+                                    </div>
+                                </div>
+
+
+
+
+
+                                @*<div class="input-field col s12">
+                                        <i class="material-icons prefix">mode_edit</i>
+                                        <textarea id="note" class="materialize-textarea" asp-for="Employee.IdCardInformation.Name"></textarea>
+                                        <label for="note">Qeyd</label>
+                                    </div>*@
+
+
+
+
+                            </div>
+                        </div>
+                        <div class="App_elements__back-cover" style="display: flex;">
+                            <button class="waves-effect waves-light btn-small" id="addAsEmployee" style="margin-right: 10px !important;"><i class="material-icons left">add_circle</i> İşçİ</button>
+                            <button class="waves-effect waves-light btn-small" id="addAsGuestMember" style="display: none;"><i class="material-icons left">add_circle</i>Qonaq</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</div>
+
+
+<ul id="slide-out" class="sidenav search_sideNav" style="transform: translateX(0%);">
+    <div class="container">
+        <h5 class="search_title" style="text-align: center;">Axtarış bölməsi</h5>
+        <hr />
+        <ul class="collapsible">
+            <li class="active">
+                <div class="collapsible-header"><i class="material-icons">pin</i>Fin-ə görə axtarış</div>
+                <div class="collapsible-body" style="padding: 10px;">
+                    <span>
+                        <input placeholder="FİN KODU" id="search_pin" type="text" class="validate">
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">badge</i>Ad, Soyad, Ata adı</div>
+                <div class="collapsible-body" style="padding: 10px;">
+                    <span>
+                        <input placeholder="AD" id="search_name" type="text" class="validate">
+                        <input placeholder="SOYAD" id="search_surname" type="text" class="validate">
+                        <input placeholder="ATA ADI" id="search_patr" type="text" class="validate">
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">tag</i>Seriya nömrəsi</div>
+                <div class="collapsible-body" style="padding: 10px;">
+                    <span>
+                        <span>
+                            <input placeholder="SERİYA NÖMRƏSİ" id="search_seria" type="text" class="validate">
+                        </span>
+                    </span>
+                </div>
+            </li>
+            <button class="waves-effect waves-light btn-small" style="margin-top: 15px; width: 100%; background-color: black;" id="idCardSearchBtn"> <i class="material-icons left">search</i> Axtar</button>
+        </ul>
+    </div>
+</ul>
+
+
+<!-- Data Modal  -->
+<div id="modalForData" class="modal">
+    <div class="modal-content">
+        <h4 style="color: white; font-size: 24px">Nəticələr</h4>
+        <table class="responsive-table highlight App_table" id="modalDataTable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Şəkil</th>
+                    <th>Adı</th>
+                    <th>Soyadı</th>
+                    <th>Ata adı</th>
+                    <th>Doğum tarixi</th>
+                    <th>Forma əlavə et</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
+
+
+
+
+<script src="~/static/js/addCollectDataForGuest.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#mainTable').DataTable({
+            responsive: true
+        });
+        $('select').formSelect();
+
+        function makeScrollTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        const addManyBtn = $('#addManyMembers');
+        const addAsGuestMember = $('#addAsGuestMember');
+        const addAsEmployee = $('#addAsEmployee');
+        const addForm = $('#addForm');
+        const withEmployee = $('.withEmployee');
+
+        addAsEmployee.click(function (e) {
+            e.preventDefault();
+
+            const fieldValues = getFieldsValues(1);
+            addDataToCollectedArr(fieldValues);
+            addDataToTable(collectedDataArr);
+            withEmployee.hide();
+            resetForm(addForm);
+            $('#car_number').val(fieldValues.carNumber);
+            $('.car_number-label').addClass('active');
+            makeScrollTop();
+            $(this).css('pointer-events', 'none');
+            addAsGuestMember.css("display", "flex");
+        });
+
+        addAsGuestMember.click(function (e) {
+            e.preventDefault();
+
+            const fieldValues = getFieldsValues(3);
+            addDataToCollectedArr(fieldValues);
+            addDataToTable(collectedDataArr);
+
+            resetForm(addForm);
+            $('#car_number').val(fieldValues.carNumber);
+            $('.car_number-label').addClass('active');
+            makeScrollTop();
+        });
+
+
+        addManyBtn.click(function (e) {
+            e.preventDefault();
+
+            if (!collectedDataArr.length) {
+                alert('Məlumat yoxdur!');
+                return;
+            }
+
+            const serializedData = serializeData(collectedDataArr);
+
+            sendCollectDataToService(serializedData, '/EmployeeGuest/AddCollectData')
+                .then(response => {
+                    if (response == "OK") {
+                        alert("Məlumat uğurla əlavə edildi!");
+
+                        resetCollectDataTable();
+                        window.location.reload();
+                    }
+                })
+                .catch(err => console.log(err));
+        });
+
+        $('#mypicker1').dateTimePicker({
+            selectData: "now",
+            positionShift: { top: 20, left: 0 },
+            title: "Vaxtı seçin",
+            buttonTitle: "Seçildi",
+            dateFormat: "MM-DD-YYYY HH:mm",
+            locale: 'az'
+        });
+    });
+</script>

@@ -1,0 +1,77 @@
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.deps.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfo.cs
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\source\repos\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.deps.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\bilgeh2\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.genruntimeconfig.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.deps.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\Desktop\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.deps.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\new\bilgeh 13.04.20223\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.genruntimeconfig.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.deps.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfo.cs
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Admin\Desktop\bilgeh proyektler versiyalarnan\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.deps.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\bin\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.dll
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.pdb
+C:\Users\Administrator\Desktop\last_version\17.042023\esas project\BilgehNBS\BilgehNBSCore\obj\Debug\netcoreapp3.1\BilgehNBSCore.genruntimeconfig.cache

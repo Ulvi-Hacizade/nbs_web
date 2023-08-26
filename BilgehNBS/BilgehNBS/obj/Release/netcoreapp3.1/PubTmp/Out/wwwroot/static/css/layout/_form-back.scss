@@ -1,0 +1,23 @@
+.App_form-back {
+    background-color: var(--base-color); //rgba(59,133,144,.65);
+    padding: 15px;
+
+    .input-field {
+        label {
+            color: #fff !important;
+        }
+    }
+
+}
+
+.App_elements__back-cover {
+
+
+    span {
+        color: white !important;
+
+        &::after {
+            border-color: #1ef3df !important;
+        }
+    }
+}

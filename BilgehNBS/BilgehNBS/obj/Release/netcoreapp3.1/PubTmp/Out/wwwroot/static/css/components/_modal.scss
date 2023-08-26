@@ -1,0 +1,9 @@
+.modal { 
+    background-image: url(/static/img/back_cover__main.jpg);
+    background-repeat: repeat;
+    overflow: auto;
+
+    &-footer {
+        background-color: transparent !important;
+    }
+}

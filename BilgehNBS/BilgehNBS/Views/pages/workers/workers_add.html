@@ -1,0 +1,41 @@
+  <div class="App_search">
+    <header class="App_header">
+      <nav class="App_header__top-nav">
+          <div class="container">
+              <a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a>
+            <div class="App_header__logo logo">
+              <img src="/static/img/logo.jpg" alt="logo">
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+
+          <div class="App_title__main">
+            <h1>İşçİlər<span> İşçilər əlavə et </span></h1>
+          </div>
+
+
+          <div class="row App_form-back">
+            <div class="row">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+
+<script>
+    $(document).ready(function () {
+      $('#mainTable').DataTable({
+          responsive: true
+      });
+      $('select').formSelect();
+    });
+  </script>

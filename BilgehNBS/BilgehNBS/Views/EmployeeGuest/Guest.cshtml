@@ -1,0 +1,398 @@
+﻿@model EmployeeModel
+
+    <style>
+        .tabs .tab a {
+            background: #3b8590 !important;
+            color: white !important;
+            font-weight: bold;
+        }
+
+        .tabs {
+            border: 2px solid #1b565e;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .tabs .tab_item {
+                width: 100% !important;
+            }
+
+            .tabs .tab a:active {
+                color: white;
+            }
+    </style>
+
+<div class="App_search">
+    <header class="App_header">
+        <nav class="App_header__top-nav">
+            <div class="container">
+                <a href="#" data-target="nav-main" class="top-nav sidenav-trigger full" style="display: block;"><i class="material-icons">menu</i></a>
+                <div class="App_header__logo logo">
+                    <img src="/static/img/logo.jpg" alt="logo">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="App_title__main">
+                    <h1>Qonaqlar<span>Hal-hazırda İstİrahət mərkəzİndə olan qonaqlar </span></h1>
+                </div>
+                
+                <div class="col s12" style="margin-bottom: 17px;">
+                    <ul class="tabs">
+                        <li class="tab col s3 tab_item"><a href="#guests" class="active"> Qonaqlar</a></li>
+                        <li class="tab col s3 tab_item"><a href="#participants"> Tədbİr İştİrakçıları</a></li>
+                    </ul>
+                </div>
+
+
+                <div id="guests" class="col s12">
+                    <div class="row App_form-back">
+                        <div class="row">
+                            <div class="col">
+                                <a class="waves-effect waves-light btn" href="@Url.Action("GuestPermenantQuitAll", "EmployeeGuest", new { MemberId = Model.Id, type = "1" }, null)"><i class="material-icons left">add_circle</i>Ümumi çıxış</a>
+                            </div>
+                        </div>
+                        <table class="responsive-table highlight App_table" id="mainTable2">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Şəkil</th>
+                                    <th>Adı</th>
+                                    <th>Soyadı</th>
+                                    <th>Ata adı</th>
+                                    <th>İşçi ilə birlikdə</th>
+                                    <th>Qeyd</th>
+                                    <th>Post</th>
+                                    <th>Giriş tarixi</th>
+                                    <th>Çıxış tarixi</th>
+                                    <th>Müvəqqəti giriş/çıxışlar</th>
+                                    <th>Müvəqqəti giriş/çıxış</th>
+                                    <th>Birdəfəlik çıxış</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                @for (int i = 0; i < Model.GuestList.Count; i++)
+                                {
+                                    @if (!Model.GuestList[i].EventParticipants)
+                                    {
+                                        <tr>
+                                            <td>@(i + 1)</td>
+                                            <td><img src="@Model.GuestList[i].IdCardInformation.Image" width="60" /></td>
+                                            <td>@Model.GuestList[i].IdCardInformation.Name</td>
+                                            <td>@Model.GuestList[i].IdCardInformation.Surname</td>
+                                            <td>@Model.GuestList[i].IdCardInformation.FatherName</td>
+                                            <td>@(Model.IsAttended ? "Bəli" : "Xeyr")</td>
+                                            <td>@Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().Note</td>
+                                            <td>@Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().Creator.Username</td>
+                                            <td>@Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().CrossingTime</td>
+
+                                            <td>
+
+                                                @{
+                                                    bool checkExitt = (Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                    if (checkExitt)
+                                                    {
+                                                        @Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault().CrossingTime
+                                                    }
+                                                    else
+                                                    {
+                                                        <p> Çıxış edilməyib </p>
+                                                    }
+                                                }
+                                            </td>
+                                            <td>
+                                                @{
+                                                    var temprorayOutputList = Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                    var temprorayInputList = Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                    var checkCount = temprorayInputList.Count;
+                                                    string content = "";
+                                                }
+                                                @if (temprorayOutputList.Count > 0)
+                                                {
+                                                    <select>
+                                                        <option value="0" selected style="color: white !important;">Tarixlər</option>
+                                                        @for (int g = 0; g < temprorayOutputList.Count; g++)
+                                                        {
+                                                            <option value="1">
+                                                                @if (g < temprorayInputList.Count)
+                                                                {
+                                                                    content = "Çıxış :" + temprorayOutputList[g].CrossingTime + "-" + "Giriş :" + temprorayInputList[g].CrossingTime;
+                                                                }
+                                                                else if (g == temprorayInputList.Count)
+                                                                {
+                                                                    content = "Çıxış :" + temprorayOutputList[g].CrossingTime + "-" + "Giriş :" + "Giris edilmeyib";
+                                                                }
+                                                                @content
+                                                            </option>
+                                                        }
+                                                    </select>
+                                                }
+                                                else
+                                                {
+                                                    <p> Yoxdur </p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @{
+                                                    var guestCrossingList = Model.GuestList[i].PersonWithType.Crossing.Where(x => x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                    bool? checkPermanentExitForTemporary = (Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                    bool? checkTemporaryEnterance = false;
+                                                    if (guestCrossingList.Count > 0)
+                                                    {
+                                                        checkTemporaryEnterance = guestCrossingList[guestCrossingList.Count - 1].InputOrOutput;
+                                                    }
+                                                }
+                                                @if (checkPermanentExitForTemporary==true)
+                                                {
+                                                    <p> Birdəfəlik çıxış edilib </p>
+                                                }
+                                                else
+                                                {
+                                                    if (guestCrossingList.Count > 0)
+                                                    {
+                                                        if (checkTemporaryEnterance==true)
+                                                        {
+                                                            <a class="waves-effect waves-light btn orange darken-4 App_btn__withIcon" href="@Url.Action("GuestMembertemporaryExitOrEnter", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id, inputOutput = "0"},null)"><i class="material-icons left">logout</i></a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a class="waves-effect waves-light btn teal darken-4 App_btn__withIcon" href="@Url.Action("GuestMembertemporaryExitOrEnter", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id, inputOutput = "1"},null)"><i class="material-icons left">login</i></a>
+                                                        }
+                                                    }
+
+                                                    else
+                                                    {
+                                                        <a class="waves-effect waves-light btn orange darken-4 App_btn__withIcon" href="@Url.Action("GuestMembertemporaryExitOrEnter", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id, inputOutput = "0"},null)"><i class="material-icons left">logout</i></a>
+
+                                                    }
+
+                                                }
+                                            </td>
+                                            <td>
+                                                @{
+                                                    bool checkExit = (Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                }
+
+                                                @if (checkExit)
+                                                {
+                                                    <p> Birdəfəlik çıxış edilib </p>
+                                                }
+                                                else
+                                                {
+                                                    <a class="waves-effect waves-light btn red darken-3 App_btn__withIcon" href="@Url.Action("GuestMemberpermenantExit", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id},null)"><i class="material-icons left">logout</i></a>
+
+                                                }
+
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="participants" class="col s12">
+
+                    <div class="row App_form-back">
+                        <div class="row">
+                            <div class="col">
+                                <a class="waves-effect waves-light btn" href="@Url.Action("GuestPermenantQuitAll", "EmployeeGuest", new { MemberId = Model.Id, type = "1" }, null)"><i class="material-icons left">add_circle</i>Ümumi çıxış</a>
+                            </div>
+                        </div>
+                        <table class="responsive-table highlight App_table" id="mainTable3">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Şəkil</th>
+                                    <th>Adı</th>
+                                    <th>Soyadı</th>
+                                    <th>Ata adı</th>
+                                    <th>İşçi ilə birlikdə</th>
+                                    <th>Qeyd</th>
+                                    <th>Post</th>
+                                    <th>Giriş tarixi</th>
+                                    <th>Çıxış tarixi</th>
+                                    <th>Müvəqqəti çıxışlar</th>
+                                    <th>Müvəqqəti giriş/çıxış</th>
+                                    <th>Birdəfəlik çıxış</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                                @for (int i = 0; i < Model.GuestList.Count; i++)
+                                {
+                                    @if (Model.GuestList[i].EventParticipants)
+                                    {
+                                        <tr>
+                                            <td>@(i + 1)</td>
+                                            <td><img src="@Model.GuestList[i].IdCardInformation.Image" width="60" /></td>
+                                            <td>@Model.GuestList[i].IdCardInformation.Name</td>
+                                            <td>@Model.GuestList[i].IdCardInformation.Surname</td>
+                                            <td>@Model.GuestList[i].IdCardInformation.FatherName</td>
+                                            <td>@(Model.IsAttended ? "Bəli" : "Xeyr")</td>
+                                            @*<td>@Model.GuestList[i].RelativeType</td>*@
+                                            <td>@Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().Note</td>
+                                            <td>@Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().Creator.Username</td>
+                                            <td>@Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().CrossingTime</td>
+
+                                            <td>
+
+                                                @{
+                                                    bool checkExitt = (Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                    if (checkExitt)
+                                                    {
+                                                        @Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault().CrossingTime
+                                                    }
+                                                    else
+                                                    {
+                                                        <p> Çıxış edilməyib </p>
+                                                    }
+                                                }
+                                            </td>
+                                            <td>
+                                                @{
+                                                    var temprorayOutputList = Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                    var temprorayInputList = Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                    var checkCount = temprorayInputList.Count;
+                                                    string content = "";
+                                                }
+                                                @if (temprorayOutputList.Count > 0)
+                                                {
+                                                    <select>
+                                                        <option value="0" selected style="color: white !important;">Tarixlər</option>
+                                                        @for (int g = 0; g < temprorayOutputList.Count; g++)
+                                                        {
+                                                            <option value="1">
+                                                                @if (g < temprorayInputList.Count)
+                                                                {
+                                                                    content = "Çıxış :" + temprorayOutputList[g].CrossingTime + "-" + "Giriş :" + temprorayInputList[g].CrossingTime;
+                                                                }
+                                                                else if (g == temprorayInputList.Count)
+                                                                {
+                                                                    content = "Çıxış :" + temprorayOutputList[g].CrossingTime + "-" + "Giriş :" + "Giris edilmeyib";
+                                                                }
+                                                                @content
+                                                            </option>
+                                                        }
+                                                    </select>
+                                                }
+                                                else
+                                                {
+                                                    <p> Yoxdur </p>
+                                                }
+                                            </td>
+                                            <td>
+                                                @{
+                                                    var guestCrossingList = Model.GuestList[i].PersonWithType.Crossing.Where(x => x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                    bool? checkPermanentExitForTemporary = (Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                    bool? checkTemporaryEnterance = false;
+                                                    if (guestCrossingList.Count > 0)
+                                                    {
+                                                        checkTemporaryEnterance = guestCrossingList[guestCrossingList.Count - 1].InputOrOutput;
+                                                    }
+                                                }
+                                                @if (checkPermanentExitForTemporary==true)
+                                                {
+                                                    <p> Birdəfəlik çıxış edilib </p>
+                                                }
+                                                else
+                                                {
+                                                    if (guestCrossingList.Count > 0)
+                                                    {
+                                                        if (checkTemporaryEnterance==true)
+                                                        {
+                                                            <a class="waves-effect waves-light btn orange darken-4 App_btn__withIcon" href="@Url.Action("GuestMembertemporaryExitOrEnter", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id, inputOutput = "0"},null)"><i class="material-icons left">logout</i></a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a class="waves-effect waves-light btn teal darken-4 App_btn__withIcon" href="@Url.Action("GuestMembertemporaryExitOrEnter", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id, inputOutput = "1"},null)"><i class="material-icons left">login</i></a>
+                                                        }
+                                                    }
+
+                                                    else
+                                                    {
+                                                        <a class="waves-effect waves-light btn orange darken-4 App_btn__withIcon" href="@Url.Action("GuestMembertemporaryExitOrEnter", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id, inputOutput = "0"},null)"><i class="material-icons left">logout</i></a>
+
+                                                    }
+
+                                                }
+                                            </td>
+                                            <td>
+                                                @{
+                                                    bool checkExit = (Model.GuestList[i].PersonWithType.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                }
+
+                                                @if (checkExit)
+                                                {
+                                                    <p> Birdəfəlik çıxış edilib </p>
+                                                }
+                                                else
+                                                {
+                                                    <a class="waves-effect waves-light btn red darken-3 App_btn__withIcon" href="@Url.Action("GuestMemberpermenantExit", "EmployeeGuest", new { employeeID = Model.Id, guestMemberID=Model.GuestList[i].Id},null)"><i class="material-icons left">logout</i></a>
+
+                                                }
+
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+        const localization = {
+            info: "Hal-hazırda ümümi _TOTAL_ məlumatdan _START_ - _END_ aralığında göstərilir",
+            "paginate": {
+                "first": "İlk",
+                "last": "Son",
+                "next": "Sonrakı",
+                "previous": "Əvvəlki"
+            },
+        }
+
+        $('#mainTable2').DataTable({
+            responsive: true,
+            language: localization,
+            buttons: {
+                dom: {
+                    button: {
+                        tag: "button",
+                        className: "waves-effect waves-light btn mrm"
+                    }
+                },
+                buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+            }
+        });
+
+        $('#mainTable3').DataTable({
+            responsive: true,
+            language: localization,
+            buttons: {
+                dom: {
+                    button: {
+                        tag: "button",
+                        className: "waves-effect waves-light btn mrm"
+                    }
+                },
+                buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+            }
+        });
+        $('select').formSelect();
+    });
+</script>

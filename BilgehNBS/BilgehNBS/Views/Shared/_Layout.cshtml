@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/compiled/main.css">
+    <link rel="stylesheet" href="~/static/css/datetimepicker.css" />
+    <script src="~/static/js/vendors/jquery/jquery.3.5.1.min.js"></script>
+    <link rel="stylesheet" href="~/static/css/fontawesome-free-6.4.0-web/css/all.min.css" />
+    @*<script src="~/static/js/vendors/mrz_reader/mrz-worker.bundle-min-wrapped.js"></script>*@
+    <script src="~/static/js/moment_with_locales.js"></script>
+    <title>@ViewData["Title"] - BilgehNBS</title>
+</head>
+<body>
+
+
+
+    @RenderBody();
+
+    <!-- Sidenav Responsive -->
+    <ul id="nav-main" class="App_sidenav sidenav" style="transform: translateX(-105%) !important;">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/office.jpg">
+                </div>
+                <a href="#user"><img class="circle" src="/static/img/demo_user.webp"></a>
+                <a href="#name"><span class="white-text name">Operator</span></a>
+                <a href="#email"><span class="white-text email">nbs@otel.az</span></a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="EmployeesFamily" asp-action="Employees">
+                <i class="material-icons">people</i>
+                İşçilər və ailə üzvləri
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeGuest" asp-action="Employees">
+                <i class="material-icons">people</i>
+                Qonaqlar
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Worker" asp-action="WorkerParent">
+                <i class="material-icons">people</i>
+                Vətəndaşlar
+            </a>
+        </li>
+        <li>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                <i class="material-icons">search</i>
+                Axtarış
+            </a>
+        </li>
+
+        <div class="divider"></div>
+        
+        @*<li>
+            <a class="nav-link text-dark">
+                <i class="material-icons" style="margin-right: 7px;">tag</i>
+                <span style="white-space: nowrap;">Sanatoriyada olan @ViewData["Category"] sayı: @ViewData["EmployeeCount"] </span>
+            </a>
+        </li>*@
+
+
+
+        <li class="App_sidenav__quit">
+            <a asp-controller="Account" asp-action="Logout">
+                <div class="chip" title="Çıxış et">
+                    <img src="/static/img/quit.png" alt="Contact Person">
+                    Operator
+                </div>
+            </a>
+        </li>
+    </ul>
+
+
+
+    <style>
+        .video-containerr {
+            z-index: 1000000;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0, .75);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .id_card-block {
+            position: relative;
+            width: 450px;
+            height: 350px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 4px dashed yellow;
+        }
+
+        .id_card-mrz_line {
+            -webkit-animation: beam 0.01s infinite;
+            animation: beam 0.01s infinite;
+        }
+
+            .id_card-mrz_line .laser {
+                width: 100%;
+                background-color: yellow;
+                height: 3px;
+                position: absolute;
+                top: 0;
+                z-index: 2;
+                box-shadow: 0 0 4px red;
+                -webkit-animation: scanning 2s infinite;
+                animation: scanning 2s infinite;
+            }
+
+
+        @@keyframes beam {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @@keyframes scanning {
+            50% {
+                transform: translateY(240px);
+            }
+        }
+    </style>
+
+
+    <div class="video-containerr" style="display: none;">
+        <div class="id_card-block">
+            <video id="video" autoplay playsinline muted width="100%" height="100%"></video>
+            <div class="id_card-mrz_line">
+                <div class="laser">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas" style="display: none;"></canvas>
+
+    <!-- js materializecss -->
+    <script src="~/static/js/vendors/materialize/materialize.min.js"></script>
+    <!-- jquery with datatable -->
+    <script src="/static/js/vendors/datatable.1.11.5.js"></script>
+    <!-- datatable.materializecss.min.js here the css is implemented to the datatable -->
+    <script src="/static/js/vendors/datatables_materialize-renderer.js"></script>
+    <script src="~/static/js/search.js"></script>
+    <script src="~/static/js/mrz_reader.js"></script>
+    @*<script src="~/static/js/vendors/mrz_reader/demo.bundle.js"></script>*@
+    @*<script src="~/static/js/3mRider.js"></script>*@
+    <script src="~/static/js/datetimepicker.js"></script>
+    <script src="/static/js/main.js"></script>
+    @*@RenderSection("Scripts", required: false)*@
+</body>
+</html>

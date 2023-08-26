@@ -1,0 +1,26 @@
+body {
+    background-image: url("/static/img/back_cover__main.jpg") !important;
+    background-repeat: repeat !important;
+}
+
+main {
+    padding-left: 0;
+    @include min-width(large) {
+        padding-left: 300px;
+    }
+}
+
+.App_elements__back-cover {
+        background-color: var(--base-color);
+        position: relative;
+        padding: 10px;
+        @include min-width(small) {
+            padding: 15px 20px;
+        }   
+
+        &__btn {
+            position: absolute !important;
+            right: 15px;
+            bottom: 20px;
+        }
+}

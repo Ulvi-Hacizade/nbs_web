@@ -1,0 +1,44 @@
+// Abstract 
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/utilities";
+
+// Base 
+@import "base/reset";      
+@import "base/typography";
+@import "base/fonts";
+@import "base/global";        
+
+// Components 
+@import "components/buttons";
+@import "components/title";
+@import "components/logo";
+@import "components/form";
+@import "components/modal";
+@import "components/table";
+@import "components/bottombar";
+
+// Layouts 
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidenav";
+@import "layout/form-back";
+// Pages 
+@import "pages/home";
+@import "pages/login";   
+@import "pages/search";                      
+
+// Themes 
+@import "themes/dark";            
+@import "themes/light";
+
+
+//Vendors
+@import "vendors/materialize/materialize.scss";
+
+
+//overrides
+.container {
+    width: 95% !important;
+}

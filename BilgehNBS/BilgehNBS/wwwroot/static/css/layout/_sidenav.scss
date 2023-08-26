@@ -1,0 +1,29 @@
+.App_sidenav {
+    &.sidenav {
+        & .user-view {
+            background-color: #000;
+        }
+    }
+
+    &__quit {
+        position: absolute;
+        bottom: 65px;
+        width: 100%;
+
+        a{
+            height: 35px !important;
+            width: 100%;
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
+
+
+        .chip {
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

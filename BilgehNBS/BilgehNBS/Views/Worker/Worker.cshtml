@@ -1,0 +1,543 @@
+﻿@model List<WorkerModel>
+
+<html>
+<body>
+    <div class="App_search">
+        <header class="App_header">
+            <nav class="App_header__top-nav">
+                <div class="container">
+                    <a href="#" data-target="nav-main" class="top-nav sidenav-trigger full" style="display: block;"><i class="material-icons">menu</i></a>
+                    <div class="App_header__logo logo">
+                        <img src="/static/img/logo.png" alt="logo">
+                    </div>
+                    <a class="nav-link text-dark" style="display: flex; align-items: center; justify-content: center">
+                        <i class="material-icons" style="margin-right: 7px;">tag</i>
+                        <span style="white-space: nowrap;">İstirahət mərkəzində olan @ViewData["Category"] sayı: @ViewData["EmployeeCount"] </span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="row">
+
+                    <div class="App_title__main">
+                        <h1>Vətəndaşlar<span>Hal-hazırda İstİrahət mərkəzİndə olan Vətəndaşlar</span></h1>
+                    </div>
+
+
+                    <div class="row App_form-back">
+                        <div class="row">
+                            <div class="col">
+                                <a asp-action="Add" class="waves-effect waves-light btn"><i class="material-icons left">add_circle</i>Əlavə et</a>
+                            </div>
+                        </div>
+                        <table class="responsive-table highlight App_table" id="mainTable">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Şəkil</th>
+                                    <th>Adı</th>
+                                    <th>Soyadı</th>
+                                    <th>Ata adı</th>
+                                    <th>Maşını idarə edən şəxsdir</th>
+                                    <th>Gəldiyi qrup</th>
+                                    <th>Qrup qeydi</th>
+                                    <th>Giriş qeydi</th>
+                                    <th>Post</th>
+                                    <th>Giriş tarixi</th>
+                                    <th>Çıxış tarixi</th>
+                                    <th>Müvəqqəti giriş/çıxışlar</th>
+                                    <th>Müvəqqəti giriş/çıxış qeydləri</th>
+                                    <th>Müvəqqəti giriş/çıxış</th>
+                                    <th>Birdəfəlik çıxış</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                @for (int i = 0; i < Model.Count; i++)
+                                {
+
+                                    <tr>
+                                        <td>@(i + 1)</td>
+                                        <td><img src="@Model[i].IdCardInformation.Image" width="60" /></td>
+                                        <td>@Model[i].IdCardInformation.Name</td>
+                                        <td>@Model[i].IdCardInformation.Surname</td>
+                                        <td>@Model[i].IdCardInformation.FatherName</td>
+
+                                        <td>@(Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().IsDriver ? "Bəli" : "Xeyr" )</td>
+                                        <td>
+                                            @if (Model[i].WorkerParentModel.WorkerModelList.Count > 1)
+                                            {
+                                                <a href="@Url.Action("WorkerGroup", "Worker", new { workerParentId = @Model[i].WorkerParentModel.Id }, null)" class="waves-effect waves-light btn App_btn__withIcon"><i class="material-icons left">group</i>@Model[i].WorkerParentModel.WorkerModelList.Count nəfər</a>
+                                            }
+                                            else
+                                            {
+                                                <p>Yoxdur</p>
+                                            }
+                                        </td>
+                                        <td>
+                                            <a class="waves-effect waves-light btn App_btn__withIcon modal-trigger" href="#groupnotemodal_@i">
+                                                <i class="material-icons left">edit_note</i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a class="waves-effect waves-light btn App_btn__withIcon modal-trigger" href="#notemodalworker_@i">
+                                                <i class="material-icons left">edit_note</i>
+                                            </a>
+                                        </td>
+
+                                        <td>@Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().Creator.Username</td>
+                                        <td>
+
+                                            @Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().CrossingTime
+
+                                        </td>
+                                        <td>
+
+                                            @{
+                                                bool checkExitt = (Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                if (checkExitt)
+                                                {
+                                                    @Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault().CrossingTime
+                                                }
+                                                else
+                                                {
+                                                    <p> Çıxış edilməyib </p>
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            @{
+                                                var temprorayOutputList = Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                var temprorayInputList = Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                var checkCount = temprorayInputList.Count;
+                                                string content = "";
+                                            }
+                                            @if (temprorayOutputList.Count > 0)
+                                            {
+                                                <select>
+                                                    <option value="0" selected style="color: white !important;">Tarixlər</option>
+                                                    @for (int g = 0; g < temprorayOutputList.Count; g++)
+                                                    {
+                                                        <option value="1">
+                                                            @if (g < temprorayInputList.Count)
+                                                            {
+                                                                content = "Çıxış :" + temprorayOutputList[g].CrossingTime + "-" + "Giriş :" + temprorayInputList[g].CrossingTime;
+                                                            }
+                                                            else if (g == temprorayInputList.Count)
+                                                            {
+                                                                content = "Çıxış :" + temprorayOutputList[g].CrossingTime + "-" + "Giriş :" + "Giris edilmeyib";
+                                                            }
+                                                            @content
+                                                        </option>
+                                                    }
+                                                </select>
+                                            }
+                                            else
+                                            {
+                                                <p> Yoxdur </p>
+                                            }
+                                        </td>
+                                        <td>
+                                            <a class="waves-effect waves-light btn App_btn__withIcon modal-trigger" href="#modal_temporaryNote_@i"><i class="material-icons left">edit_note</i></a>
+                                        </td>
+                                        <td>
+                                            @{
+                                                var familyCrossingList = Model[i].PersonWithtype.Crossing.Where(x => x.Permanent == false).ToList().OrderBy(p => p.CrossingTime).ToList();
+                                                bool? checkPermanentExitForTemporary = (Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                                bool? checkTemporaryEnterance = false;
+                                                if (familyCrossingList.Count > 0)
+                                                {
+                                                    checkTemporaryEnterance = familyCrossingList[familyCrossingList.Count - 1].InputOrOutput;
+                                                }
+                                            }
+                                            @if (checkPermanentExitForTemporary == true)
+                                            {
+                                                <p> Birdəfəlik çıxış edilib </p>
+                                            }
+                                            else
+                                            {
+                                                if (familyCrossingList.Count > 0)
+                                                {
+                                                    if (checkTemporaryEnterance == true)
+                                                    {
+                                                        <a class="waves-effect waves-light btn red darken-3 App_btn__withIcon modal-trigger temporaryExitBtn" id="temporaryExitBtn" data-workerid="@Model[i].Id" href="#modal_temporaryExit"><i class="material-icons left">logout</i></a>
+                                                        @*<a class="waves-effect waves-light btn orange darken-4 App_btn__withIcon" href="@Url.Action("WorkerMembertemporaryExitOrEnter", "Worker", new { workerID = Model[i].Id, inputOutput = "0"},null)"><i class="material-icons left">logout</i></a>*@
+                                                    }
+                                                    else
+                                                    {
+                                                        <a class="waves-effect waves-light btn  teal darken-4 App_btn__withIcon modal-trigger temporaryEnteranceBtn" id="temporaryEnteranceBtn" data-workerid="@Model[i].Id" href="#modal_temporaryEnterance"><i class="material-icons left">login</i></a>
+                                                        @*<a class="waves-effect waves-light btn teal darken-4 App_btn__withIcon" href="@Url.Action("WorkerMembertemporaryExitOrEnter", "Worker", new { workerID = Model[i].Id, inputOutput = "1"},null)"><i class="material-icons left">login</i></a>*@
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <a class="waves-effect waves-light btn red darken-3 App_btn__withIcon modal-trigger temporaryExitBtn" id="temporaryExitBtn" data-workerid="@Model[i].Id" href="#modal_temporaryExit"><i class="material-icons left">logout</i></a>
+                                                    @*<a class="waves-effect waves-light btn orange darken-4 App_btn__withIcon" href="@Url.Action("WorkerMembertemporaryExitOrEnter", "Worker", new { workerID = Model[i].Id, inputOutput = "0"},null)"><i class="material-icons left">logout</i></a>*@
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            @{
+                                                bool checkExit = (Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == false && x.Permanent == true).FirstOrDefault() != null);
+                                            }
+
+                                            @if (checkExit)
+                                            {
+                                                <p> Birdəfəlik çıxış edilib </p>
+                                            }
+                                            else
+                                            {
+                                                @*<a class="waves-effect waves-light btn red darken-3 App_btn__withIcon" href="@Url.Action("FamilyMemberpermenantExit", "EmployeesFamily", new { employeeID = Model.Id, familyMemberID=Model.Family[i].Id},null)"><i class="material-icons left">logout</i></a>*@
+                                                <a class="waves-effect waves-light btn red darken-3 App_btn__withIcon modal-trigger permanentExitBtn" data-workerid="@Model[i].Id" href="#modal_exit"><i class="material-icons left">logout</i></a>
+                                            }
+
+                                        </td>
+                                    </tr>
+
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <!-- Group note modal -->
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div id="groupnotemodal_@i" class="modal">
+            <div class="modal-content">
+                <p class="modal_title_text">Qrup qeydi</p>
+                <hr />
+                <p class="modal_content_text">
+                    @Model[i].WorkerParentModel.Note
+                </p>
+            </div>
+        </div>
+    }
+
+    <!-- Personal note modal -->
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div id="notemodalworker_@i" class="modal">
+            <div class="modal-content">
+                <p class="modal_title_text">Qrup qeydi</p>
+                <hr />
+                <p class="modal_content_text">
+                    @{
+                        var InputOutputIsNull = Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == null).FirstOrDefault() == null ? false : true;
+                    }
+                    @if (InputOutputIsNull)
+                    {
+                        @Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == null).FirstOrDefault().Note
+
+                    }
+                    else
+                    {
+                        @Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().Note
+                    }
+                </p>
+            </div>
+        </div>
+    }
+
+
+
+
+    <div id="modal_exit" class="modal">
+        <div class="modal-content" style="padding-bottom: 0 !important;">
+            <h4 class="white-text">Çıxış qeydi</h4>
+            <hr />
+
+            <div class="row">
+                <div class="App_form-back">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix" style="color: #1ef3df !important;">mode_edit</i>
+                        <textarea id="permanentExitNote" class="materialize-textarea white-text"></textarea>
+                        <label for="permanentExitNote" class="white-text">Qeyd əlavə edin</label>
+                    </div>
+
+                    <input type="datetime-local" id="permanentExitTime" class="white-text">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer" style="padding-right: 24px;">
+            <button asp-action="EmployeeExit" id="modalExitBtn" class="modal-close white-text waves-effect waves-green btn">Çıxış et</button>
+        </div>
+    </div>
+
+
+    <div id="modal_temporaryExit" class="modal">
+        <div class="modal-content" style="padding-bottom: 0 !important;">
+            <h4 class="white-text">Müvəqqəti çıxış qeydi</h4>
+            <hr />
+
+            <div class="row">
+                <div class="App_form-back">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix" style="color: #1ef3df !important;">mode_edit</i>
+                        <textarea id="temporaryExitNote" class="materialize-textarea white-text"></textarea>
+                        <label for="temporaryExitNote" class="white-text">Qeyd əlavə edin</label>
+                    </div>
+
+                    <input type="datetime-local" id="temporaryExitTime" class="white-text">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer" style="padding-right: 24px;">
+            <button id="modalTemporaryEnteranceBtn" class="modalTemporaryExitBtn modal-close white-text waves-effect waves-green btn">Çıxış et</button>
+        </div>
+    </div>
+
+    <div id="modal_temporaryEnterance" class="modal">
+        <div class="modal-content" style="padding-bottom: 0 !important;">
+            <h4 class="white-text">Müvəqqəti giriş qeydi</h4>
+            <hr />
+
+            <div class="row">
+                <div class="App_form-back">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix" style="color: #1ef3df !important;">mode_edit</i>
+                        <textarea id="temporaryEnteranceNote" class="materialize-textarea white-text"></textarea>
+                        <label for="temporaryEnteranceNote" class="white-text">Qeyd əlavə edin</label>
+                    </div>
+
+                    <input type="datetime-local" id="temporaryEnteranceTime" class="white-text">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer" style="padding-right: 24px;">
+            <button id="modalTemporaryEnteranceBtn" class="modalTemporaryEnteranceBtn modal-close white-text waves-effect waves-green btn">Giriş et</button>
+        </div>
+    </div>
+
+
+    @for (var i = 0; i < Model.Count; i++)
+    {
+        <div id="modal_temporaryNote_@i" class="modal">
+            <div class="modal-content" style="padding-bottom: 0 !important;">
+                <h4 class="white-text">Müvəqqəti giriş/çıxış qeydi</h4>
+                <hr />
+                <div class="row">
+                    @{
+                        var temporaryCrossingList = Model[i].PersonWithtype.Crossing.Where(x => x.Permanent == false).ToList();
+
+                        if (temporaryCrossingList.Count > 0)
+                        {
+                            for (var g = 0; g < temporaryCrossingList.Count; g++)
+                            {
+                                if (g % 2 == 0)
+                                {
+
+                                    <div class="App_form-back" style="margin-bottom: 5px;">
+                                        <p style="display: flex; align-items: center; margin-bottom: 10px; color: white;"><strong style="padding-right: 5px;">Çıxış:</strong> @temporaryCrossingList[g].CrossingTime</p>
+                                        <p style="display: flex; align-items: center; color: white;"><strong style="padding-right: 5px;">Qeyd:</strong> 
+                                            @if (temporaryCrossingList[g].Note != null) { 
+                                                @temporaryCrossingList[g].Note
+                                            }else
+                                            {
+                                                <span style="color: orange"> Qeyd yoxdur! </span>
+                                            }
+                                        </p>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="App_form-back" style="margin-bottom: 5px;">
+                                        <p style="display: flex; align-items: center; margin-bottom: 10px; color: white;"><strong style="padding-right: 5px;">Giriş:</strong>@temporaryCrossingList[g].CrossingTime</p>
+                                        <p style="display: flex; align-items: center; color: white;">
+                                            <strong style="padding-right: 5px;">Qeyd:</strong>
+                                            @if (temporaryCrossingList[g].Note != null)
+                                            {
+                                                @temporaryCrossingList[g].Note
+                                            }
+                                            else
+                                            {
+                                                <span style="color: orange"> Qeyd yoxdur! </span>
+                                            }
+                                        </p>
+                                    </div>
+
+                                    <hr />
+                                }
+
+                            }
+                        }
+                        else
+                        {
+                            <div class="App_form-back">
+                                <p style="color: orange;">Müvəqqəti giriş/çıxış edilməyib!</p>
+                            </div>
+                        }
+                    }
+
+
+                </div>
+            </div>
+        </div>
+
+
+                        }
+
+
+    <!--  -->
+    <!--<div id="modal_temporaryExit" class="modal">
+        <div class="modal-content" style="padding-bottom: 0 !important;">
+            <h4 class="white-text">Müvəqqəti çıxış qeydi</h4>
+            <hr />
+
+            <div class="row">
+                <div class="App_form-back">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix" style="color: #1ef3df !important;">mode_edit</i>
+                        <textarea id="temporaryExitNote" class="materialize-textarea white-text"></textarea>
+                        <label for="temporaryExitNote" class="white-text">Qeyd əlavə edin</label>
+                    </div>
+
+                    <input type="datetime-local" id="temporaryExitTime" class="white-text">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer" style="padding-right: 24px;">
+            <button id="modalTemporaryExitBtn" class="modal-close white-text waves-effect waves-green btn">Müvəqqəti çıxış et</button>
+        </div>
+    </div>-->
+    @*@for (int i = 0; i < Model.Count; i++)
+        {
+            <div id="notemodal_@i" class="modal">
+                <div class="modal-content">
+                    <p class="modal_title_text">Qeyd</p>
+                    <hr />
+                    <p class="modal_content_text">
+                        @Model[i].PersonWithtype.Crossing.Where(x => x.InputOrOutput == true && x.Permanent == true).FirstOrDefault().Note
+                    </p>
+                </div>
+            </div>
+        }*@
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            const localization = {
+                info: "Hal-hazırda ümümi _TOTAL_ məlumatdan _START_ - _END_ aralığında göstərilir",
+                "paginate": {
+                    "first": "İlk",
+                    "last": "Son",
+                    "next": "Sonrakı",
+                    "previous": "Əvvəlki"
+                },
+            }
+
+            $('#mainTable').DataTable({
+                responsive: true,
+                language: localization,
+                buttons: {
+                    dom: {
+                        button: {
+                            tag: "button",
+                            className: "waves-effect waves-light btn mrm"
+                        }
+                    },
+                    buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+
+                }
+            });
+            $('select').formSelect();
+
+
+            $('.permanentExitBtn').click(function () {
+                let dataId = $(this).data('id');
+                let workerId = $(this).data('workerid');
+
+                $('#modalExitBtn').click(function (e) {
+                    e.preventDefault();
+                    let exitNote = $('#permanentExitNote').val();
+                    let exitTime = $('#permanentExitTime').val();
+                    fetch(`/Worker/WorkerMemberpermenantExit?workerID=${workerId}&note=${exitNote}&time=${exitTime}`).then(res => res.json()).then(data => {
+                        if (data == "OK") {
+                            location.reload();
+                        } else {
+                            alert('Əlavə edilmədi.Zəhmət olmasa yenidən yoxlayın!');
+                        }
+                    });
+                });
+
+
+            });
+
+
+
+            $('.temporaryExitBtn').click(function () {
+                let dataId = $(this).data('workerid');
+
+                $('.modalTemporaryExitBtn').click(function (e) {
+                    e.preventDefault();
+                    console.log('modal exit btn clciked');
+                    let exitNote = $('#temporaryExitNote').val();
+                    let exitTime = $('#temporaryExitTime').val();
+                    fetch(`/Worker/WorkerMembertemporaryExitOrEnter?WorkerID=${dataId}&inputOutput=0&note=${exitNote}&time=${exitTime}`).then(res => res.json()).then(data => {
+                        if (data == "OK") {
+                            location.reload();
+                        } else {
+                            alert('Əlavə edilmədi.Zəhmət olmasa yenidən yoxlayın!');
+                        }
+                    });
+                });
+            });
+
+            $('.temporaryEnteranceBtn').click(function () {
+                let dataId = $(this).data('workerid');
+
+
+                $('.modalTemporaryEnteranceBtn').click(function (e) {
+                    e.preventDefault();
+                    console.log('modal exit btn clciked');
+                    let exitNote = $('#temporaryEnteranceNote').val();
+                    let exitTime = $('#temporaryEnteranceTime').val();
+                    fetch(`/Worker/WorkerMembertemporaryExitOrEnter?WorkerID=${dataId}&inputOutput=1&note=${exitNote}&time=${exitTime}`).then(res => res.json()).then(data => {
+                        console.log(data);
+                        if (data == "OK") {
+                            location.reload();
+                        } else {
+                            alert('Əlavə edilmədi.Zəhmət olmasa yenidən yoxlayın!');
+                        }
+                    });
+                });
+            });
+
+            //$('.temporaryExitBtn').click(function () {
+            //    let dataId = $(this).data('id');
+            //    let workerId = $(this).data('workerid');
+
+            //    $('#modalExitBtn').click(function (e) {
+            //        e.preventDefault();
+            //        let exitNote = $('#permanentExitNote').val();
+            //        let exitTime = $('#permanentExitTime').val();
+            //        fetch(`/Worker/WorkerMemberpermenantExit?workerID=${workerId}&note=${exitNote}&time=${exitTime}`).then(res => res.json()).then(data => {
+            //            if (data == "OK") {
+            //                location.reload();
+            //            } else {
+            //                alert('Əlavə edilmədi.Zəhmət olmasa yenidən yoxlayın!');
+            //            }
+            //        });
+            //    });
+
+
+            //});
+
+
+        });
+    </script>
+
+</body>
+
+</html>
